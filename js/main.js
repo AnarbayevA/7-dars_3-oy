@@ -12,15 +12,18 @@ elForm.addEventListener("submit", function(evt){
     if(elMoney.value === "usd"){
         result = elNumber.value * 10950;
         console.log(result);
+        alert(result + " So'm")
     }
 
     else if(elMoney.value ==="rub"){
         result = elNumber.value * 145;
         console.log(result);
+        alert(result + " So'm")
     }
 
     else if(elMoney.value ==="evro"){
         result = elNumber.value * 11200;
         console.log(result);
+        alert(result + " So'm")
     }
 })
